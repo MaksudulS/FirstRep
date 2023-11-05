@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can login successfully",
+        "description": "",
+        "id": "this-is-login-feature;verify-user-can-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 793216300,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "## Make it unique than the others to avoid conflict"
+              }
+            ],
+            "line": 7,
+            "name": "Launch \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 9
+                }
+              ],
+              "location": "FrmWrk1_Login.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3071633800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click LogIn",
+            "match": {
+              "location": "FrmWrk1_Login.click_LogIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9328140000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Type UserName PassWord and click Login",
+            "match": {
+              "location": "FrmWrk1_Login.type_UserName_PassWord_and_click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3074036600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user can login successfully",
+            "match": {
+              "location": "FrmWrk1_Login.verify_user_can_login_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "THIS IS LOGIN FEATURE",
+    "description": "",
+    "id": "this-is-login-feature",
+    "keyword": "Feature",
+    "uri": "frmWrk1_LogIn.feature"
+  }
+]

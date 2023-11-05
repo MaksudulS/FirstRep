@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-22T17:33:22 PDT" name="Default suite" finished-at="2023-09-22T17:33:43 PDT" duration-ms="20921">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:frmWrk1_TestRunner.FrmWrk1_TestRunner@4e5ed836]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-22T17:33:22 PDT" name="Default test" finished-at="2023-09-22T17:33:43 PDT" duration-ms="20921">
+      <class name="frmWrk1_TestRunner.FrmWrk1_TestRunner">
+        <test-method is-config="true" signature="FrmWrk1OpenURL()[pri:0, instance:frmWrk1_TestRunner.FrmWrk1_TestRunner@4e5ed836]" started-at="2023-09-22T17:33:22 PDT" name="FrmWrk1OpenURL" finished-at="2023-09-22T17:33:26 PDT" duration-ms="3908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrmWrk1OpenURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:frmWrk1_TestRunner.FrmWrk1_TestRunner@4e5ed836]" started-at="2023-09-22T17:33:26 PDT" name="setUpClass" finished-at="2023-09-22T17:33:26 PDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:frmWrk1_TestRunner.FrmWrk1_TestRunner@4e5ed836]" started-at="2023-09-22T17:33:26 PDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-09-22T17:33:43 PDT" duration-ms="16327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[THIS IS LOGIN FEATURE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:frmWrk1_TestRunner.FrmWrk1_TestRunner@4e5ed836]" started-at="2023-09-22T17:33:43 PDT" name="tearDownClass" finished-at="2023-09-22T17:33:43 PDT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="FrmWrk1CloseURL()[pri:0, instance:frmWrk1_TestRunner.FrmWrk1_TestRunner@4e5ed836]" started-at="2023-09-22T17:33:43 PDT" name="FrmWrk1CloseURL" finished-at="2023-09-22T17:33:43 PDT" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrmWrk1CloseURL -->
+      </class> <!-- frmWrk1_TestRunner.FrmWrk1_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
